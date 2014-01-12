@@ -13,7 +13,7 @@ LOCAL_SRC_FILES := \
         ../util/QCameraCmdThread.cpp \
         ../util/QCameraQueue.cpp
 
-LOCAL_CFLAGS := -Wall -Werror -Wno-error=maybe-uninitialized
+LOCAL_CFLAGS := -Wall -Wno-error=maybe-uninitialized
 LOCAL_CFLAGS += -DHAS_MULTIMEDIA_HINTS
 
 LOCAL_C_INCLUDES := \
